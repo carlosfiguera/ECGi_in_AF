@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\margb1417\margt1417\vieww12200\viewh13060\viewkind1
+\deftab720
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\ri0
+
+\f0\fs24 \cf0 This folder contains the code for running the simulations for the paper 
+\i Regularization Techniques for ECG Imaging during Atrial Fibrillation: a Computational Study
+\i0 , submitted to 
+\i Frontiers in Physiology
+\i0 .\
+\
+The are two main algorithms:\
+	Main.m: run inverse problem methods\
+	visualize_result.m. figures for the paper and videos.\
+\
+\pard\pardeftab720\ri0
+\cf0 Main script loads data for epicardial potentials, geometry and transfer matrix, which stored in \'91data\'92 folder. \
+\
+It is necessary to set the inverse method, its order, model and different options for running the code, which can be done at the beginning of the Main.m script (in section 
+\i Options
+\i0 ).\
+\
+In each run, regularization parameters are stored in \'91parameters\'92 folder, so in subsequent runs they can be loaded to save time by setting the variable \'91compute_params\'92 to 0. \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\ri0
+\cf0 \
+Results, figures and videos are saved in folders that can be customized in section 
+\i Paths
+\i0 .\
+\
+Visualization options are determined by \'91flag\'92 and \'91video\'92 variables at the beginning of  \'91visualize_results.m\'92 script in section 
+\i Options
+\i0 .\
+\
+Please contact me at carlos.figuera@urjc.es for any question about data or code.
+\f1\fs22 \
+}
